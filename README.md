@@ -1,6 +1,6 @@
-[![XmcAVf.jpg](https://s1.ax1x.com/2022/05/27/XmcAVf.jpg)](https://imgtu.com/i/XmcAVf)
+![](https://imgtu.com/i/XmcAVf)
 $
-[<img src="https://s1.ax1x.com/2022/05/27/XmcePg.jpg" alt="XmcePg.jpg" style="zoom:50%;" />](https://imgtu.com/i/XmcePg)
+![](https://imgtu.com/i/XmcePg)
 $
 大家好，我们又见面了！
 （一）
