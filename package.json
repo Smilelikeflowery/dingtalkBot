@@ -1,0 +1,16 @@
+{
+  "name": "dingtalkbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dingtalk-robot-sender": "^1.2.0",
+    "github-readme": "^1.0.0"
+  }
+}
