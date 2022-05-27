@@ -1,4 +1,3 @@
-$
 [![XmcAVf.jpg](https://s1.ax1x.com/2022/05/27/XmcAVf.jpg)](https://imgtu.com/i/XmcAVf)
 $
 [![XmcePg.jpg](https://s1.ax1x.com/2022/05/27/XmcePg.jpg)](https://imgtu.com/i/XmcePg)
