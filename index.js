@@ -2,7 +2,8 @@
 const githubReadme = require('github-readme');
 const axios = require('axios').default;
 const baseUrl = 'https://www.mxnzp.com/api/weather/current/';
-const imgUrl = "https://www.dmoe.cc/random.php?return=json"
+const imgUrl = "https://www.dmoe.cc/random.php?return=json";
+const djtUrl = "https://api.btstu.cn/yan/api.php?charset=utf-8&encode=json";
 
 function getWeather(city, appId, appSecret, callback) {
   const url = `${baseUrl}${encodeURI(
@@ -34,11 +35,20 @@ function sendWeather(info) {
 
 function getImage(callback){
   axios.get(imgUrl).then(res=>{
-    callback(res.data.data.imgurl)
+    callback("每日一图！",`![](${res.data.imgurl})`)
   })
 }
 
-getImage(sendImage)
+getImage(sendMarkdown)
+
+
+function getDJT(callback) {
+  axios.get(djtUrl).then(res => {
+    callback(res.data.text)
+  })
+ }
+
+ getDJT(sendText)
 
 // githubReadme('Smilelikeflowery', 'dingtalkBot', (err, data) => {
 //   if (data) {
