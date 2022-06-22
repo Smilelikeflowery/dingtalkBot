@@ -34,8 +34,13 @@ function sendWeather(info) {
 }
 
 function getImage(callback){
-  axios.get(imgUrl).then(res=>{
+  axios.get(imgUrl).then(res => {
+    // console.log(res.data.imgurl);
+    if (res) {
     callback("每日一图！",`![](${res.data.imgurl})`)
+    } else {
+      callback("每日一图","获取图片失败！")
+    }
   })
 }
 
@@ -44,7 +49,11 @@ getImage(sendMarkdown)
 
 function getDJT(callback) {
   axios.get(djtUrl).then(res => {
+    if (res.data.text) {
     callback(res.data.text)
+    } else {
+      callback("获取毒鸡汤失败！")
+      }
   })
  }
 
