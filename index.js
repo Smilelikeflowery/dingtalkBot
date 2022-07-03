@@ -62,7 +62,7 @@ const githubReadme = require('github-readme');
 githubReadme('Smilelikeflowery', 'dingtalkBot', (err, data) => {
   if (data) {
     for (let i in data.split('$')) {
-      if (i < 2) {
+      if (i <= 2) {
         let img = data.split('$')[i];
         sendMarkdown('每日早报', img);
       } else {
