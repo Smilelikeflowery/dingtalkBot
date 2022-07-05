@@ -17,17 +17,13 @@ async function call() {
       arr.push(data.split('$')[i]);
     }
   }
-  sendMarkdown('每日早报', arr[1])
-    .then(() => {
-      setTimeout(() => {
-        sendMarkdown('每日早报', arr[2]);
-      }, 1500);
-    })
-    .then(() => {
-      setTimeout(() => {
-        sendText(arr[3]);
-      }, 4000);
-    });
+  sendMarkdown('每日早报', arr[1]);
+  setTimeout(() => {
+    sendMarkdown('每日早报', arr[2]);
+  }, 1500);
+  setTimeout(() => {
+    sendText(arr[3]);
+  }, 4000);
 }
 
 call();
