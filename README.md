@@ -1,18 +1,7 @@
 $
-
-<html>
-
-<img src="https://s1.328888.xyz/2022/07/03/jN4F.png" style="width:80%;height:80%;">
-
-</html>
-
+![img1](https://s1.328888.xyz/2022/07/03/jN4F.png)
 $
-<html>
-
-<img src="https://s1.328888.xyz/2022/07/03/jN4F.png" style="width:80%;height:80%;">
-
-</html>
-
+<img src="https://s1.328888.xyz/2022/07/03/jN4F.png" style="zoom:50%">
 $
 大家好，我们又见面了！
 （一）
