@@ -1,5 +1,5 @@
 $
-![](https://aki-1258833316.cos.ap-shanghai.myqcloud.com/img/1.jpg)
+![1.jpg](https://img1.imgtp.com/2022/07/22/36ISgCRs.jpg)
 
 $
 ![](https://aki-1258833316.cos.ap-shanghai.myqcloud.com/img/2.jpg)
