@@ -1,8 +1,8 @@
 $
-![img1](https://aki-1258833316.cos.ap-shanghai.myqcloud.com/img/1.jpg)
+![img1](https://db-1258833316.cos.ap-shanghai.myqcloud.com/1.jpg)
 
 $
-![img2](https://aki-1258833316.cos.ap-shanghai.myqcloud.com/img/2.jpg)
+![img2](https://db-1258833316.cos.ap-shanghai.myqcloud.com/2.jpg)
 
 $
 大家好，我们又见面了！
